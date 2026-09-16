@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiries &amp; Contact - Crust &amp; Crumb Artisan Bakery</title>
+  <meta name="description" content="Get in touch with Crust &amp; Crumb Artisan Bakery about custom cake orders, catering and general enquiries.">
+  <meta name="author" content="Siyabonga Mhlongo">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html" class="brand">Crust <span class="amp">&amp;</span> Crumb</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Enquiries</a></li>
+        <li><a href="contact.html" class="nav-cta">Order Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <div class="page-header">
+      <div class="container">
+        <p class="eyebrow">Get in touch</p>
+        <h1>Enquiries &amp; Custom Orders</h1>
+        <p>Tell us about your cake, catering order or general enquiry, and we will get back to you within two business days.</p>
+      </div>
+    </div>
+
+    <section class="section-light" aria-labelledby="enquiry-heading">
+      <div class="container contact-grid">
+
+        <!-- FORM -->
+        <div>
+          <h2 id="enquiry-heading" style="font-size:1.4rem; margin-bottom:20px;">Send an enquiry</h2>
+          <form action="#" method="post" aria-label="Customer enquiry form">
+
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required aria-required="true" autocomplete="name">
+            </div>
+
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel">
+            </div>
+
+            <div class="field">
+              <label for="enquiry-type">Enquiry type</label>
+              <select id="enquiry-type" name="enquiry-type" required aria-required="true">
+                <option value="" disabled selected>Select an option</option>
+                <option value="custom-cake">Custom Cake Order</option>
+                <option value="catering">Catering / Event</option>
+                <option value="general">General Enquiry</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="date-needed">Date needed</label>
+              <input type="date" id="date-needed" name="date-needed">
+              <p class="form-note">Leave blank if this does not apply to your enquiry.</p>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required aria-required="true" placeholder="Tell us about the occasion, headcount, or flavours you have in mind."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Enquiry</button>
+          </form>
+        </div>
+
+        <!-- INFO + MAP -->
+        <div>
+          <div class="info-card">
+            <h3>Bakery Details</h3>
+            <div class="info-row"><span class="k">Hours</span><span>Tue - Sun, 7 am - 3 pm. Closed Mondays.</span></div>
+            <div class="info-row"><span class="k">Phone</span><span><a href="tel:+27215551234">021 555 1234</a></span></div>
+            <div class="info-row"><span class="k">Email</span><span><a href="mailto:hello@crustandcrumb.co.za">hello@crustandcrumb.co.za</a></span></div>
+            <div class="info-row"><span class="k">Address</span><span>45 Main Road, Cape Town, 8001</span></div>
+          </div>
+
+          <div class="map-frame">
+            <iframe
+              title="Google Map showing the location of Crust and Crumb Artisan Bakery in Cape Town"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.2969073407753!2d18.42340361521078!3d-33.92584298063987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d0b4e2b4b0f%3A0x7cd5cf53e925e1a5!2sCape%20Town%20City%20Centre%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1692000000000!5m2!1sen!2sza"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen="">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <h4>Crust &amp; Crumb</h4>
+          <p style="max-width:32ch; font-size:0.9rem; opacity:0.8;">Family-owned artisan bakery serving naturally leavened sourdough and traditional pastries since 2010.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Enquiries</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <ul>
+            <li>Tue - Sun, 7 am - 3 pm</li>
+            <li>Closed Mondays</li>
+            <li><a href="contact.html">Get directions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Crust &amp; Crumb Artisan Bakery.</span>
+        <span>WEDO5020 - Siyabonga Mhlongo</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
